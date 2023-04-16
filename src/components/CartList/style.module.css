@@ -1,0 +1,24 @@
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Transition */
+.cartItemEnter {
+  opacity: 0;
+}
+
+.cartItemEnterActive {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.cartItemExit {
+  opacity: 1;
+}
+
+.cartItemExitActive {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}

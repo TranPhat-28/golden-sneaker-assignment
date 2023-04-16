@@ -1,0 +1,79 @@
+.itemContainer {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+.left {
+    padding: 10px 0px 0px 10px;
+    width: 40%;
+    position: relative;
+}
+
+.right {
+    width: 60%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.circle {
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.image {
+    width: 100%;
+    transform: rotate(-30deg) translate(0px, -35px);
+}
+
+.rightBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.countButton{
+    height: 28px;
+    width: 28px;
+    background-color: #ececec;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.countButton:hover{
+    background-color: #c2c2c2;
+}
+
+.deleteButton{
+    height: 28px;
+    width: 28px;
+    background-color: var(--Yellow);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.deleteButton:hover{
+    background-color: #c9a411;
+}
+
+.countContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    height: 70%;
+    width: 70%;
+}
