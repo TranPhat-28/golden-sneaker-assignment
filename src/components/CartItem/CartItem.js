@@ -29,7 +29,7 @@ const CartItem = (props) => {
             {/* Product information */}
             <div className={styles.right}>
                 <h5>{detail.name}</h5>
-                <h3>${detail.price}</h3>
+                <h3>${detail.price.toFixed(2)}</h3>
                 <div className={styles.rightBottom}>
 
                     {/* Display add button, subtract button and count */}
