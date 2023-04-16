@@ -2,6 +2,7 @@
 Submission for Golden Owl assignment
 
 ### To run the project locally:
+Open a new terminal:
 
 ```
 // Clone the repository
