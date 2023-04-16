@@ -15,7 +15,7 @@ const ProductItem = (props) => {
             <h3 className={styles.title}>{detail.name}</h3>
             <p className={styles.description}>{detail.description}</p>
             <div className={styles.bottom}>
-                <h3>${detail.price}</h3>
+                <h3>${detail.price.toFixed(2)}</h3>
 
                 <AddToCartBtn detail={detail} />
             </div>
